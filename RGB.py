@@ -18,9 +18,12 @@ def sol(lst,ind,cnt):
     
     return cnt
 
+#inputs
 r = 2
 g = 2
 b = 2
+
+
 lst = [r,g,b]
 cnt = 0
 cnt += sum(x>0 for x in lst)
